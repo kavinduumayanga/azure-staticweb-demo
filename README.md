@@ -11,13 +11,11 @@ The website is built using only **HTML, CSS, and JavaScript**, and deployed via 
 This project was designed and demonstrated during a session to help students learn how to:
 
 - Build a professional static website using HTML, CSS, and JS
-- Implement dark/light theme toggle with memory
-- Add scroll animations using JavaScript
 - Deploy static websites on **Azure Static Web Apps**
 
 ---
 
-## 🚀 Live Demo
+## 🚀 Demo Web Link
 
 🔗 [View Live Website](https://kavindu200309.github.io/azure-staticweb-demo)
 

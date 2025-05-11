@@ -68,18 +68,21 @@
   </footer>
 
   <script>
+    // Theme memory
     const themeToggle = document.getElementById("themeToggle");
     const body = document.body;
     if (localStorage.getItem("theme") === "dark") {
       body.classList.add("dark");
       themeToggle.classList.add("active");
     }
+
     themeToggle.addEventListener("click", () => {
       body.classList.toggle("dark");
       themeToggle.classList.toggle("active");
       localStorage.setItem("theme", body.classList.contains("dark") ? "dark" : "light");
     });
 
+    // Fade-in on scroll
     const faders = document.querySelectorAll(".fade-in");
     const observer = new IntersectionObserver((entries, obs) => {
       entries.forEach(entry => {
@@ -89,6 +92,7 @@
         }
       });
     }, { threshold: 0.1 });
+
     faders.forEach(fadeEl => observer.observe(fadeEl));
   </script>
 </body>

@@ -17,7 +17,7 @@ This project was designed and demonstrated during a session to help students lea
 
 ## 🚀 Demo Web Link
 
-🔗 [View Live Website](https://kavindu200309.github.io/azure-staticweb-demo)
+🔗 [View Live Website](https://kavinduumayanga.github.io/azure-staticweb-demo/)
 
 ---
 

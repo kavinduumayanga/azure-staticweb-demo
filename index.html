@@ -1,23 +1,26 @@
-a<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Kavindu's Portfolio</title>
+  <title>Kavindu Umayanga | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
     <div class="header-container">
       <div class="identity">
-        <h1>Hi, I'm Kavindu Umayanga</h1>
-        <p>SE Undergrad @SLIIT | Microsoft Student Ambassador</p>
+        <h1>Kavindu Umayanga</h1>
       </div>
       <nav>
         <ul>
           <li><a href="#about">ABOUT</a></li>
-          <li><a href="#portfolio">PORTFOLIO</a></li>
-          <li><a href="#resume">RESUME</a></li>
+          <li><a href="#experience">EXPERIENCE</a></li>
+          <li><a href="#projects">PROJECTS</a></li>
+          <li><a href="#skills">SKILLS</a></li>
           <li><a href="#contact">CONTACT</a></li>
         </ul>
       </nav>
@@ -29,29 +32,218 @@ a<!DOCTYPE html>
     </div>
   </header>
 
-  <main>
-    <section class="about-section fade-in" id="about">
-      <div class="about-content">
-        <div class="about-image">
-          <img src="assets/profile.jpg" alt="Kavindu's Profile">
+  <!-- Hero -->
+  <section class="hero fade-in" id="hero">
+    <div class="hero-inner">
+      <div class="hero-text">
+        <p class="hero-greeting">Hi, I'm</p>
+        <h1 class="hero-name">Kavindu Umayanga</h1>
+        <p class="hero-subtitle">Software Engineering Undergraduate @ SLIIT</p>
+        <div class="hero-badges">
+          <span class="badge">Microsoft Learn Student Ambassador &#8211; Beta</span>
+          <span class="badge">Azure Certified (AZ-900)</span>
+          <span class="badge">Postman Student Expert</span>
+          <span class="badge">Freelance Graphic Designer</span>
         </div>
-        <div class="about-text">
-          <h2>About</h2>
-          <p>I’m a passionate undergraduate of SLIIT, specializing in Software Engineering who has a deep curiosity and enthusiasm for the tech world. I enjoy exploring every corner of IT, and I’m always looking for opportunities to grow, collaborate, and innovate.</p>
-          <p>Beyond academics, I’m actively involved in volunteering in my university and outer tech communities too. I’m always open to new connections, collaborations, and conversations.</p>
-          <p>Let’s get connected and take another step forward in tech.</p>
+        <div class="hero-cta">
+          <a href="#contact" class="btn btn-primary">Get in Touch</a>
+          <a href="#projects" class="btn btn-outline">View Projects</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="assets/profile.jpg" alt="Kavindu's Profile">
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <!-- About -->
+    <section class="section fade-in" id="about">
+      <h2 class="section-title">About Me</h2>
+      <div class="card about-card">
+        <p>I'm a passionate undergraduate of SLIIT, specializing in Software Engineering who has a deep curiosity and enthusiasm for tech world. I enjoy exploring every corner of IT, and I'm always looking for opportunities to grow, collaborate and innovate.</p>
+        <p>Beyond academics, I'm actively involved in volunteering in my university and outer tech communities too. I'm always open to new connections, collaborations, and conversations.</p>
+        <p>Let's get connected and take another step forward in tech.</p>
+      </div>
+    </section>
+
+    <!-- Leadership & Community -->
+    <section class="section fade-in" id="community">
+      <h2 class="section-title">Leadership &amp; Community</h2>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="card timeline-card">
+            <div class="card-top">
+              <h3>Microsoft Learn Student Ambassador &#8211; Beta</h3>
+              <span class="date-badge">May 2025 &#8211; Present</span>
+            </div>
+            <ul>
+              <li>Member of Microsoft's global student leader program</li>
+              <li>Supporting fellow students in building technical and career skills</li>
+              <li>Contributing to campus tech community development</li>
+              <li>Promoting Azure, AI, and Microsoft technologies</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="card timeline-card">
+            <div class="card-top">
+              <h3>Sub Lead &#8211; Marketing | MS Club of SLIIT</h3>
+              <span class="date-badge">Feb 2026 &#8211; Present</span>
+            </div>
+            <ul>
+              <li>Assisting in shaping marketing strategies</li>
+              <li>Leading digital engagement initiatives</li>
+              <li>Promoting Microsoft-focused and industry-aligned learning opportunities</li>
+            </ul>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="card timeline-card">
+            <div class="card-top">
+              <h3>Community Lead &#8211; Microsoft IT Pro Community Sri Lanka</h3>
+              <span class="date-badge">Jan 2025 &#8211; Present</span>
+            </div>
+            <ul>
+              <li>Supporting science and technology initiatives</li>
+              <li>Strengthening local tech community engagement</li>
+            </ul>
+          </div>
         </div>
       </div>
     </section>
 
-    <section class="contact-section fade-in" id="contact">
-      <h2>Contact Me</h2>
-      <p>Feel free to reach out to me through any of the platforms below:</p>
+    <!-- Professional Experience -->
+    <section class="section fade-in" id="experience">
+      <h2 class="section-title">Professional Experience</h2>
+      <div class="card experience-card">
+        <div class="card-top">
+          <h3>Freelance Graphic Designer &amp; Illustrator</h3>
+          <span class="date-badge">Fiverr | Nov 2019 &#8211; Present</span>
+        </div>
+        <p>With over 6 years of experience in creative design, I specialize in:</p>
+        <div class="chip-group">
+          <span class="chip">Vector Illustration</span>
+          <span class="chip">Pop Art Portraits</span>
+          <span class="chip">Landscape Artwork</span>
+          <span class="chip">Logo &amp; Brand Design</span>
+          <span class="chip">Business Cards</span>
+          <span class="chip">Brochures</span>
+          <span class="chip">Flyers &amp; Banners</span>
+        </div>
+        <p>My goal is to deliver creative, high-impact visuals that help businesses leave a lasting impression.</p>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section fade-in" id="education">
+      <h2 class="section-title">Education</h2>
+      <div class="card education-card">
+        <div class="edu-icon">&#127891;</div>
+        <div class="edu-info">
+          <h3>BSc (Hons) in Information Technology &#8211; Software Engineering</h3>
+          <p class="edu-school">Sri Lanka Institute of Information Technology (SLIIT)</p>
+          <span class="date-badge">Oct 2024 &#8211; Oct 2028</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Project -->
+    <section class="section fade-in" id="projects">
+      <h2 class="section-title">Featured Project</h2>
+      <div class="card project-card">
+        <div class="card-top">
+          <h3>Military Soldier Health Monitoring System (IoT Glove)</h3>
+          <span class="date-badge">Oct 2024 &#8211; Jan 2025 | SLIIT</span>
+        </div>
+        <p>A wearable health and location monitoring system designed to enhance soldier safety through real-time monitoring.</p>
+        <div class="project-features">
+          <div class="feature-item"><span class="feature-icon">&#10084;&#65039;</span><span>Real-Time Heart Rate Monitoring</span></div>
+          <div class="feature-item"><span class="feature-icon">&#127777;&#65039;</span><span>Real-Time Body Temperature Monitoring</span></div>
+          <div class="feature-item"><span class="feature-icon">&#128205;</span><span>Live GPS Tracking</span></div>
+          <div class="feature-item"><span class="feature-icon">&#128223;</span><span>On-Glove OLED Display</span></div>
+          <div class="feature-item"><span class="feature-icon">&#9729;&#65039;</span><span>Live Cloud Dashboard</span></div>
+          <div class="feature-item"><span class="feature-icon">&#128267;</span><span>Solar-Assisted Self-Charging</span></div>
+        </div>
+        <p class="project-tech">Built using ESP32 and integrated with Blynk Cloud, this project provided hands-on experience in IoT, embedded systems, and real-world problem solving.</p>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section fade-in" id="skills">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="card skill-card">
+          <h4>&#128187; Programming</h4>
+          <div class="chip-group">
+            <span class="chip">C++</span>
+            <span class="chip">Arduino</span>
+            <span class="chip">Java</span>
+            <span class="chip">JavaScript</span>
+          </div>
+        </div>
+        <div class="card skill-card">
+          <h4>&#9729;&#65039; Cloud &amp; Tools</h4>
+          <div class="chip-group">
+            <span class="chip">Microsoft Azure</span>
+            <span class="chip">Postman</span>
+            <span class="chip">Blynk Cloud</span>
+            <span class="chip">Git &amp; GitHub</span>
+          </div>
+        </div>
+        <div class="card skill-card">
+          <h4>&#128295; Hardware &amp; IoT</h4>
+          <div class="chip-group">
+            <span class="chip">ESP32</span>
+            <span class="chip">Sensor Integration</span>
+            <span class="chip">Embedded Systems</span>
+            <span class="chip">Circuit Design</span>
+          </div>
+        </div>
+        <div class="card skill-card">
+          <h4>&#127912; Creative Tools</h4>
+          <div class="chip-group">
+            <span class="chip">Adobe Illustrator</span>
+            <span class="chip">Branding &amp; Visual Design</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certifications -->
+    <section class="section fade-in" id="certifications">
+      <h2 class="section-title">Certifications</h2>
+      <div class="cert-grid">
+        <div class="card cert-card">
+          <span class="cert-icon">&#9729;&#65039;</span>
+          <h4>Microsoft Azure Fundamentals</h4>
+          <p>AZ-900</p>
+        </div>
+        <div class="card cert-card">
+          <span class="cert-icon">&#127758;</span>
+          <h4>Microsoft Learn Student Ambassador</h4>
+          <p>Beta</p>
+        </div>
+        <div class="card cert-card">
+          <span class="cert-icon">&#128238;</span>
+          <h4>Postman Student Expert</h4>
+          <p>Certified</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section fade-in" id="contact">
+      <h2 class="section-title">Connect With Me</h2>
+      <p class="contact-text">Based in Sri Lanka &#8212; Open to collaborations, internships, and tech conversations.</p>
       <div class="social-icons">
         <a href="mailto:kavinumayanga@gmail.com" title="Email">
           <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/gmail.svg" alt="Email" />
         </a>
-        <a href="https://www.linkedin.com/in/kavindu-umayanga-93239b319/" target="_blank" title="LinkedIn">
+        <a href="https://www.linkedin.com/in/kavindu-umayanga/" target="_blank" title="LinkedIn">
           <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/linkedin.svg" alt="LinkedIn" />
         </a>
         <a href="https://github.com/kavindu200309" target="_blank" title="GitHub">
@@ -63,26 +255,23 @@ a<!DOCTYPE html>
 
   <footer>
     <div class="footer-content">
-      <p>© 2025 Kavindu Umayanga</p>
+      <p>&copy; 2025 Kavindu Umayanga</p>
     </div>
   </footer>
 
   <script>
-    // Theme memory
     const themeToggle = document.getElementById("themeToggle");
     const body = document.body;
     if (localStorage.getItem("theme") === "dark") {
       body.classList.add("dark");
       themeToggle.classList.add("active");
     }
-
     themeToggle.addEventListener("click", () => {
       body.classList.toggle("dark");
       themeToggle.classList.toggle("active");
       localStorage.setItem("theme", body.classList.contains("dark") ? "dark" : "light");
     });
 
-    // Fade-in on scroll
     const faders = document.querySelectorAll(".fade-in");
     const observer = new IntersectionObserver((entries, obs) => {
       entries.forEach(entry => {
@@ -92,7 +281,6 @@ a<!DOCTYPE html>
         }
       });
     }, { threshold: 0.1 });
-
     faders.forEach(fadeEl => observer.observe(fadeEl));
   </script>
 </body>
